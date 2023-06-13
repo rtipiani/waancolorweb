@@ -275,7 +275,7 @@
             <script>
                 Swal.fire({
                     icon: '{{ Session::get('icono') }}',
-                    title: 'Correo',
+                    title: 'Error al enviar',
                     text: '{{ Session::get('mensajeExito') }}',
                     confirmButtonText: 'Cerrar'
                 });
